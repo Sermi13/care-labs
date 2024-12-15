@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* Global Styles */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+/* Custom adjustments for responsiveness (optional) */
+.card {
+  overflow: hidden !important;
+}
+
+.bg-light {
+  min-height: 200px !important; /* Evita tamanhos muito pequenos */
+}
+
+@media (max-width: 768px) {
+  .card {
+      padding: 1rem !important /* Ajuste de padding em telas menores */
+  }
+}
+
+

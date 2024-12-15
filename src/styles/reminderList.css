@@ -1,0 +1,34 @@
+.list-group-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.list-group-item strong {
+    font-size: 1.1rem;
+}
+
+.list-group-item p {
+    font-size: 0.95rem;
+    color: #6c757d;
+}
+
+.list-group-item small {
+    font-size: 0.85rem;
+    color: #adb5bd;
+}
+
+.btn-link {
+    font-size: 1.5rem;
+    color: #dc3545;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-link:hover {
+    color: #c82333;
+}

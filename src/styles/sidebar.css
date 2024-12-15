@@ -1,0 +1,27 @@
+/* Sidebar animation */
+.sidebar {
+    transition:
+        width 0.5s ease,
+        opacity 0.3s ease;
+}
+
+.sidebar .sidebar-content {
+    transition: opacity 0.3s ease;
+}
+
+.sidebar-close {
+    width: 4rem;
+}
+
+.sidebar-open {
+    width: 13rem;
+}
+
+.sidebar-item-hidden {
+    opacity: 0;
+    display: none;
+}
+
+.sidebar-item-visible {
+    opacity: 1;
+}
