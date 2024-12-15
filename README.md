@@ -15,7 +15,7 @@ Este projeto é uma aplicação web desenvolvida com **React**, **Redux Toolkit*
 1. **Clone o repositório** para sua máquina local:
 
 ```bash
-git clone <url-do-repositório>
+git clone https://github.com/Sermi13/care-labs.git
 ```
 
 2. **Acesse a pasta do projeto**
